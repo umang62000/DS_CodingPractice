@@ -1,0 +1,10 @@
+1.hm.put(key,value)
+Order not in our control in hashmap
+2. hm.get(key)
+It returns value or null
+3. hm.containskey(key) 
+It return true or false
+4.keyset
+It is used to get all keys in hashmap
+Set<String> keys=hm.keyset();
+5.hm.remove(val);

@@ -1,0 +1,9 @@
+TODO
+HW
+1.ReverseVowelString -Done
+Array 3rd class gfg question
+2.Segregate 0 and 1-DONE 
+3.Segregate 0,1,2-DONE
+4.Min moves to equal array element
+5.Sort Array by parity
+6.Maximum Swap Logic

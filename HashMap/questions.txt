@@ -1,0 +1,12 @@
+1.hfc-Highest freq character
+2.Get Common Elements 1
+a1-1,1,2,2,2,3,5
+a2-1,1,1,2,2,4,5
+Result-1,2,5
+3.Get Common elements 2
+Question-It can be unsorted array and print in order of a2.And no of times character will print
+will be from array which has less no that element occurence.
+a1-1,1,2,2,2,3,5
+a2-1,1,1,2,2,4,5
+Result-1,1,2,2,5
+4.Longest Consecutive sequence

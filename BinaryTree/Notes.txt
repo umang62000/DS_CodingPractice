@@ -1,0 +1,24 @@
+Construct Binary Tree
+1.We will take an stack and start pushing the pair nodes
+ public static class Pair {
+        Node node;
+        int state;
+
+        Pair(int state, Node node) {
+            this.state = state;
+            this.node = node;
+        }
+    }
+If state=1 then push left
+If state =2 then push right 
+If state=3 then pop from stack
+2.Level Order
+RPA-Remove,Print,Add children
+In this we will mamke a queue
+first we will add thr root node in queue
+then we will follow RPA process
+2.Iterative approach
+i)Take a stack and pair elements with node and state
+ii)If topelement.state==1 then push in preorder,state++,node.left
+ If topelement.state==2 then push in In,state++,node.right
+ If topelement.state==3 then push in postorder and pop
